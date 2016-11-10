@@ -71,12 +71,9 @@ img:hover {
 
 .container {
   height: 150px;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -101,10 +98,8 @@ h1 {
 
 .images {
   height:630px;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-justify-content: center;
-        justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .leftside{
@@ -122,10 +117,8 @@ h1 {
 
 .content {
   height:200px;
-  display: -webkit-flex;
-  display:         flex;
-  -webkit-justify-content: center;
-        justify-content: center;
+  display: flex;
+  justify-content: center;
   font-size: 12px;
   font-family: sans-serif;
 }
@@ -156,6 +149,6 @@ h1 {
 
 h3 {
   width: 600px;
-margin-top: 6px;
-margin-left: -84px;
+  margin-top: 6px;
+  margin-left: -84px;
 }
